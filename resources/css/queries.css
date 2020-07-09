@@ -38,7 +38,8 @@
     font-size: 90%;
   }
 
-  .hero-text-box {
+  .my-text {
+    margin-left: 5%;
   }
 
   .col {
@@ -52,4 +53,11 @@
 }
 
 @media only screen and (max-width: 480px) {
+  .main-nav li {
+    /* border: 1px solid #f00; */
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 0 0 10px 0;
+  }
 }
