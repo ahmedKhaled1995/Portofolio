@@ -1,0 +1,253 @@
+/*--------------------------------------------------------------------------------*/
+/* ------------ Main Setup ------------*/
+/*--------------------------------------------------------------------------------*/
+
+/* Main Color : #3498db */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+
+.row {
+  /* border: 1px solid #000; */
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 0px;
+}
+
+nav .row {
+  margin-top: 0;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+section {
+  padding: 80px 0;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: inherit;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 240%;
+  word-spacing: 4px;
+  /* color: #fff; */
+}
+
+h2 {
+  font-size: 180%;
+  word-spacing: 2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2:after {
+  display: block;
+  content: " ";
+  width: 10%;
+  height: 2px;
+  background-color: #3498db;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 110%;
+  word-spacing: 1px;
+}
+
+/*--------------------------------------------------------------------------------*/
+/* ------------ Header ------------*/
+/*--------------------------------------------------------------------------------*/
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./img/portofolio_background-min.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.main-nav {
+  float: right;
+  margin: 50px 20px 50px 0;
+}
+
+.main-nav li {
+  /* border: 1px solid #f00; */
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+  padding: 0 0 20px 0;
+}
+
+.main-nav a:link,
+.main-nav a:visited {
+  padding-bottom: 10px;
+  color: rgb(214, 208, 208);
+  text-decoration: none;
+}
+
+.main-nav a:hover,
+.main-nav a:active {
+  color: rgb(255, 250, 250);
+  border-bottom: 1px solid #3498db;
+}
+
+.box {
+  /* border: 1px solid red; */
+  position: absolute;
+  width: 570px;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  font-style: italic;
+  font-weight: 300;
+}
+
+.my-img {
+  height: 90px;
+  width: auto;
+  border-radius: 50%;
+  margin-left: 40%;
+}
+
+/*--------------------------------------------------------------------------------*/
+/* ------------ WEB PROJECTS ------------*/
+/*--------------------------------------------------------------------------------*/
+
+.entry {
+  margin-right: 10px;
+  margin-left: 1px;
+}
+
+.entry a:link,
+.entry a:visited {
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 1px solid #3498db;
+  color: #3498db;
+  margin: 20px 0 0 120px;
+  padding-bottom: 5px;
+  transition: color 0.2s, border-bottom 0.2s;
+}
+
+.entry a:active,
+.entry a:hover {
+  border-bottom: none;
+  color: #555;
+}
+
+.entry img {
+  width: auto;
+  height: 150px;
+  opacity: 0.95;
+  transform: scale(1.1);
+  margin: 20px 20px 20px 60px;
+  transition: transform 0.5s, opacity 0.5s;
+  /* border: 1px solid blue; */
+}
+
+.entry img:hover {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.entry p {
+  font-size: 95%;
+  margin-left: 20px;
+  letter-spacing: 1px;
+}
+
+/*--------------------------------------------------------------------------------*/
+/* ------------ UNITY PROJECTS ------------*/
+/*--------------------------------------------------------------------------------*/
+
+.entry div:nth-child(2) {
+  margin-left: 30px;
+}
+
+.entry div:nth-child(3) a {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.unity-projects {
+  background-color: rgba(241, 237, 237, 0.966);
+}
+
+.game-desc {
+  width: 70%;
+}
+
+/*------------------------------------------------------------------------*/
+/* FOOTER */
+/*------------------------------------------------------------------------*/
+footer {
+  background-color: rgb(54, 53, 53);
+  padding-bottom: 10px;
+}
+
+.icon {
+  color: rgb(145, 137, 137);
+  font-size: 150%;
+}
+
+.icon:hover {
+  color: #3498db;
+  font-size: 150%;
+}
+
+.icon-non-interactive {
+  color: rgb(145, 137, 137);
+  font-size: 150%;
+}
+
+.footer-nav-one {
+  float: left;
+}
+
+.footer-nav-one li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.footer-nav-two {
+  list-style: none;
+}
+
+.footer-nav-two li div a {
+  float: left;
+  margin-right: 20px;
+}
+
+.footer-nav-two li div p {
+  color: #eee;
+  font-size: 90%;
+}
