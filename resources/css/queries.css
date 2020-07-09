@@ -61,4 +61,14 @@
     padding: 0 0 10px 0;
     font-size: 80%;
   }
+
+  .main-nav {
+    margin-right: 50px;
+  }
+
+  .footer-nav-one {
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
 }
