@@ -39,7 +39,7 @@
   }
 
   .my-text {
-    margin-left: 5%;
+    margin-left: 6%;
   }
 
   .col {
@@ -55,9 +55,10 @@
 @media only screen and (max-width: 480px) {
   .main-nav li {
     /* border: 1px solid #f00; */
-    display: block;
-    margin-left: 20px;
+    display: inline-block;
+    margin-left: 10px;
     margin-bottom: 10px;
     padding: 0 0 10px 0;
+    font-size: 80%;
   }
 }
