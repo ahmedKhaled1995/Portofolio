@@ -70,3 +70,20 @@
     font-size: 1.5rem;
   }
 }
+
+@media (max-width: 500px) {
+  /* Decreasing the font size of my name on this width and smaller to look more beautiful*/
+  .my--name {
+    font-size: 1.5rem;
+  }
+
+  .fa-mobile,
+  .fa-google {
+    font-size: 1rem !important;
+    margin-top: 8px;
+  }
+
+  .r-text {
+    font-size: 1.2rem;
+  }
+}
