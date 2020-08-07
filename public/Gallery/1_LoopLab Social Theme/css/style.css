@@ -1,0 +1,75 @@
+/***********************************************************************************/
+/****** Genral Setup *****/
+/***********************************************************************************/
+/* Main color: #008ed6 */
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+/***********************************************************************************/
+/****** Nav bar *****/
+/***********************************************************************************/
+.navbar--custom {
+  border-bottom: solid 3px #008ed6;
+  opacity: 0.8;
+}
+
+/***********************************************************************************/
+/****** Home Header *****/
+/***********************************************************************************/
+#home--section {
+  background-image: url(./img/home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+.home--overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.home--inner {
+  margin-top: 150px; /* Note that any margin would move the image if the dark--overlay's position wasn't not set to absolute */
+}
+
+.card--form {
+  opacity: 0.8;
+}
+
+.home--icon {
+  color: #008ed6;
+  border: solid 1px #fff;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+/***********************************************************************************/
+/****** Explore Section *****/
+/***********************************************************************************/
+.explore--icon {
+  color: #fff;
+  border: solid 1px #fff;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #555;
+}
+/***********************************************************************************/
+/****** Share Section *****/
+/***********************************************************************************/
+.share--icon {
+  color: #008ed6;
+  border: solid 1px #fff;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+/***********************************************************************************/
+/****** Share Section *****/
+/***********************************************************************************/

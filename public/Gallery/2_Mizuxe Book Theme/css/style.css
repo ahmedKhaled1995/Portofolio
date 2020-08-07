@@ -1,0 +1,93 @@
+/*********************************************************************************/
+/********* Defining our colors *********/
+/*********************************************************************************/
+/* Note that we are pushing down the body because we don't want the background image nor the overlay to appear behind the navbar */
+body {
+  margin-top: 75px;
+  /* approximate height of the navbar */ }
+
+/*********************************************************************************/
+/********* Customizing Navbar *********/
+/*********************************************************************************/
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: #fff;
+  /* Nesting is only allowed in scss, not in css. Basically, I am choosing the element with the class nav-item inside the element with the class navbar */ }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 1.4rem; }
+
+/*********************************************************************************/
+/********* Customizing header (SHOWCASE) *********/
+/*********************************************************************************/
+#home-header {
+  position: relative;
+  background: url(/img/mountains.jpg);
+  min-height: 600px; }
+
+.home-overlay {
+  background: rgba(50, 146, 166, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+/*********************************************************************************/
+/********* ABOUT/WHY SECTION (Accordian Section) *********/
+/*********************************************************************************/
+.accordian-header {
+  width: 50%;
+  margin-left: 25%;
+  border-bottom: 1px solid #ddd; }
+
+/*********************************************************************************/
+/********* Authors Section *********/
+/*********************************************************************************/
+.author-info {
+  position: relative;
+  top: -50px; }
+
+.author-header {
+  width: 50%;
+  margin-left: 25%;
+  border-bottom: 1px solid #ddd; }
+
+.author-boxes {
+  /* Icons (facebook, twitter ...etc) */ }
+  .author-boxes .card:hover {
+    background-color: #3292a6;
+    color: #fff; }
+    .author-boxes .card:hover .fa {
+      color: #fff; }
+
+/*********************************************************************************/
+/********* Media Quireis *********/
+/*********************************************************************************/
+@media (max-width: 1000px) {
+  /*********************************************************************************/
+  /********* Authors Section *********/
+  /*********************************************************************************/
+  .m-resp {
+    padding: 0 0 1rem 1rem; } }
+@media (max-width: 768px) {
+  /*********************************************************************************/
+  /********* Home Header ShowCase *********/
+  /*********************************************************************************/
+  #home-header {
+    min-height: 500px; }
+    #home-header h1 {
+      font-size: 4rem; }
+
+  /*********************************************************************************/
+  /********* BOXES (about) *********/
+  /*********************************************************************************/
+  .mb-resp {
+    padding-bottom: 1rem; }
+
+  /*********************************************************************************/
+  /********* Authors Section *********/
+  /*********************************************************************************/
+  .m-resp .m-resp {
+    padding: 0 0 1rem 1rem; } }

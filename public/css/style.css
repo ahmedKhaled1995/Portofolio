@@ -1,0 +1,72 @@
+/* Used in my image */
+.avatar {
+  width: 100%;
+  height: 400px;
+  border: 1px solid #000;
+}
+
+/* To make Social Icons (like facebook and linkedin) glow when hovered*/
+.social--icon:hover,
+.social--icon:visited {
+  color: rgb(7, 188, 243);
+}
+
+/* Used in my Name */
+.my--name {
+  font-size: 3rem;
+}
+
+/* Used in Experince line to make it pitch black */
+.bg--black {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Used in "Boxes Section" to make the boxes take the full available height */
+.full--height {
+  height: 100%;
+}
+
+/* Used to make the box as wide as it needs to be */
+.full--width--box {
+  width: 100%;
+}
+
+.full--width--box:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+/*-------------------------------------------------------------*/
+
+/* Used in projects img display (Work Section) */
+.project--img {
+  opacity: 0.7;
+  width: 100%;
+  height: 200px;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.card-img {
+  overflow: hidden;
+  margin: 0;
+  background-color: #000; /* note I am setting this property because when I use opacity with this elemet's child image, 
+      I want a dark grey color, not a white grey color*/
+}
+
+.project--img:hover {
+  opacity: 1;
+  transform: scale(1.03);
+}
+/*-------------------------------------------------------------*/
+
+/*****************************************************************************************/
+/****** Media Quiries ******/
+/*****************************************************************************************/
+
+@media (max-width: 1023px) {
+  /* Decreasing the font size of my name on this width and smaller to look more beautiful*/
+  .my--name {
+    font-size: 1.5rem;
+  }
+}
