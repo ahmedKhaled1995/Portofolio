@@ -76,13 +76,13 @@
   .my--name {
     font-size: 1.5rem;
   }
-
+  /*ga-mobile, fa-google are the icons on the contact section, we shrink them om small devices*/
   .fa-mobile,
   .fa-google {
     font-size: 1rem !important;
     margin-top: 5px;
   }
-
+  /* r-text is the gmail account and phine number on contact page */
   .r-text {
     font-size: 0.9rem;
   }
